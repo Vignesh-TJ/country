@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>country search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid " id="pain" style="background-image: url(https://media.istockphoto.com/id/1405835459/photo/blue-and-pink-colorful-clouds-of-smoke-and-shiny-glitter-powder-particles-bursts-background.jpg?s=612x612&w=0&k=20&c=Ga8d-z9yHCu3yObFD1nEM6yDECsVH45vUe456324NhA=);height: 100%;width: 100%;background-repeat: no-repeat;background-size: cover">
+        <h1 class="text-center text-white m-3">Know About the Countries</h1>
+        <input id="countryname" type="text" placeholder="enter your country"  class="rounded my-3 py-2 px-5" style="margin-left: 39%;">
+        <button onclick="search()" type="button" class="btn btn-primary">search</button>
+        <div class="container  d-flex justify-content-center ">
+           
+            <div class="card shadow" id="result" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtZkIw1hmaEOI2kfRX79eW9sAta4caGI3CEw&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">INDIA</h5>
+                 <p>capital</p>
+                 <hr>
+                 <p>content</p>
+                 <hr>
+                 <p>population</p>
+                 <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="country.js"></script>
+    
+    
+</body>
+</html>
